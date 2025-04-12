@@ -1,6 +1,6 @@
 tasks:
   - name: install-pretty-cat
-    init: sudo install bat
+    init: sudo apt install bat
     
   - name: aws-cli
     env: 
