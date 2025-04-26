@@ -1,6 +1,6 @@
 tasks:
   - name: install snyk
-    init: brew install snyk
+    init: brew install snyk-cli
     
   - name: install-pretty-cat
     init: sudo apt install -y bat
