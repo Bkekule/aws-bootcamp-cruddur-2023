@@ -1,9 +1,6 @@
 tasks:
-  - name: update npm
-    init: npm update -g npm
-
   - name: install snyk
-    init: npm install snyk
+    init: brew install snyk
     
   - name: install-pretty-cat
     init: sudo apt install -y bat
